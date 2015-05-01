@@ -1,0 +1,96 @@
+﻿Build started 07/06/2014 20:13:02.
+     1>Project "C:\Users\user\Documents\ThirdYearProject\TankAssignment_2012.vcxproj" on node 2 (Rebuild target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\ThirdYearProject.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\OpenAL 1.1 SDK\include" /I"C:\Program Files (x86)\OpenAL 1.1 SDK\freealut-1.1.0-bin\include" /ISource\Common /ISource\Math /ISource\UI /ISource\Scene /ISource\Render /ISource\Data /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /Gm /EHsc /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /wd4996 /analyze- /errorReport:prompt "Source\Math\Path Finding.cpp" Source\Scene\Camera.cpp Source\Scene\Entity.cpp Source\Scene\EntityManager.cpp Source\Scene\CharacterEntity.cpp Source\Scene\Light.cpp Source\Scene\Messenger.cpp Source\Common\CFatalException.cpp Source\Common\CHashTable.cpp Source\Common\CTimer.cpp Source\Common\MSDefines.cpp Source\Common\Utility.cpp Source\Render\Mesh.cpp Source\Render\RenderMethod.cpp Source\Render\CImportXFile.cpp Source\UI\Input.cpp Source\Math\BaseMath.cpp Source\Math\CMatrix2x2.cpp Source\Math\CMatrix3x3.cpp Source\Math\CMatrix4x4.cpp Source\Math\CQuaternion.cpp Source\Math\CQuatTransform.cpp Source\Math\CVector2.cpp Source\Math\CVector3.cpp Source\Math\CVector4.cpp Source\Math\MathIO.cpp Source\MainApp.cpp Source\ThirdYearProject.cpp
+         ThirdYearProject.cpp
+     1>c:\users\user\documents\thirdyearproject\source\scene\Templates.h(30): warning C4244: '=' : conversion from 'int' to 'gen::TFloat32', possible loss of data
+         MainApp.cpp
+         MathIO.cpp
+         CVector4.cpp
+         CVector3.cpp
+         CVector2.cpp
+         CQuatTransform.cpp
+         CQuaternion.cpp
+         CMatrix4x4.cpp
+         CMatrix3x3.cpp
+         CMatrix2x2.cpp
+         BaseMath.cpp
+         Input.cpp
+         CImportXFile.cpp
+         RenderMethod.cpp
+         Mesh.cpp
+         Utility.cpp
+         MSDefines.cpp
+         CTimer.cpp
+         CHashTable.cpp
+         Generating Code...
+         Compiling...
+         CFatalException.cpp
+         Messenger.cpp
+         Light.cpp
+         CharacterEntity.cpp
+     1>c:\users\user\documents\thirdyearproject\source\scene\Templates.h(30): warning C4244: '=' : conversion from 'int' to 'gen::TFloat32', possible loss of data
+     1>Source\Scene\CharacterEntity.cpp(334): warning C4244: 'argument' : conversion from 'int' to 'const gen::TFloat32', possible loss of data
+     1>Source\Scene\CharacterEntity.cpp(335): warning C4244: 'argument' : conversion from 'int' to 'const gen::TFloat32', possible loss of data
+     1>Source\Scene\CharacterEntity.cpp(337): warning C4018: '<' : signed/unsigned mismatch
+     1>Source\Scene\CharacterEntity.cpp(344): warning C4244: 'argument' : conversion from 'gen::TFloat32' to 'unsigned int', possible loss of data
+     1>Source\Scene\CharacterEntity.cpp(344): warning C4244: 'argument' : conversion from 'int' to 'const gen::TFloat32', possible loss of data
+     1>Source\Scene\CharacterEntity.cpp(345): warning C4244: 'argument' : conversion from 'gen::TFloat32' to 'unsigned int', possible loss of data
+     1>Source\Scene\CharacterEntity.cpp(345): warning C4244: 'argument' : conversion from 'int' to 'const gen::TFloat32', possible loss of data
+         EntityManager.cpp
+     1>c:\users\user\documents\thirdyearproject\source\scene\Templates.h(30): warning C4244: '=' : conversion from 'int' to 'gen::TFloat32', possible loss of data
+         Entity.cpp
+         Camera.cpp
+         Path Finding.cpp
+     1>Source\Math\Path Finding.cpp(49): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>Source\Math\Path Finding.cpp(50): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>Source\Math\Path Finding.cpp(51): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>Source\Math\Path Finding.cpp(52): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>Source\Math\Path Finding.cpp(171): warning C4018: '<' : signed/unsigned mismatch
+         Generating Code...
+     1>c:\users\user\documents\thirdyearproject\source\math\path finding.cpp(201): warning C4715: 'pathFinder' : not all control paths return a value
+     1>c:\users\user\documents\thirdyearproject\source\scene\camera.cpp(125): warning C4715: 'gen::CCamera::PixelFromWorldPt' : not all control paths return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\user\Documents\ThirdYearProject\\ThirdYearProject.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\OpenAL 1.1 SDK\freealut-1.1.0-bin\lib" /LIBPATH:"C:\Program Files (x86)\OpenAL 1.1 SDK\libs\Win32" d3dxof.lib dxguid.lib d3dx9d.lib d3d9.lib winmm.lib OpenAL32.lib alut.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\user\Documents\ThirdYearProject\\TankAssignment.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"C:\Users\user\Documents\ThirdYearProject\\ThirdYearProject.lib" /MACHINE:X86 /SAFESEH:NO /IGNORE:4089 "Debug\Path Finding.obj"
+         Debug\Camera.obj
+         Debug\Entity.obj
+         Debug\EntityManager.obj
+         Debug\CharacterEntity.obj
+         Debug\Light.obj
+         Debug\Messenger.obj
+         Debug\CFatalException.obj
+         Debug\CHashTable.obj
+         Debug\CTimer.obj
+         Debug\MSDefines.obj
+         Debug\Utility.obj
+         Debug\Mesh.obj
+         Debug\RenderMethod.obj
+         Debug\CImportXFile.obj
+         Debug\Input.obj
+         Debug\BaseMath.obj
+         Debug\CMatrix2x2.obj
+         Debug\CMatrix3x3.obj
+         Debug\CMatrix4x4.obj
+         Debug\CQuaternion.obj
+         Debug\CQuatTransform.obj
+         Debug\CVector2.obj
+         Debug\CVector3.obj
+         Debug\CVector4.obj
+         Debug\MathIO.obj
+         Debug\MainApp.obj
+         Debug\ThirdYearProject.obj
+         TankAssignment_2012.vcxproj -> C:\Users\user\Documents\ThirdYearProject\\ThirdYearProject.exe
+       PostBuildEvent:
+         copy "C:\Program Files (x86)\OpenAL 1.1 SDK\freealut-1.1.0-bin\lib\alut.dll"
+         :VCEnd
+                 1 file(s) copied.
+       FinalizeBuildStatus:
+         Deleting file "Debug\ThirdYearProject.unsuccessfulbuild".
+         Touching "Debug\ThirdYearProject.lastbuildstate".
+     1>Done Building Project "C:\Users\user\Documents\ThirdYearProject\TankAssignment_2012.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:01:14.04
